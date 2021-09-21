@@ -6,20 +6,45 @@
 }
 
 /* main */
+
+/* nav */
+nav {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    z-index: 999;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: white;
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50%;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* sections */
 section {
     height: 100vh;
     position: relative;
 }
 
-.rossa {
+#rossa {
     background: red;
 }
 
-.verde {
+#verde {
     background-color: green;
 }
 
-.gialla {
+#gialla {
     background-color: yellow;
 }
 
