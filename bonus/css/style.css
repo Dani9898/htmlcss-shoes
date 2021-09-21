@@ -1,0 +1,50 @@
+/* generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+section {
+    height: 100vh;
+    position: relative;
+}
+
+.rossa {
+    background: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.gialla {
+    background-color: yellow;
+}
+
+section img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+}
+
+section h1 {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 39px;
+    width: 25vw;
+    text-align: center;
+}
+
+.testo-giallo {
+    color: yellow;
+}
+
+.testo-verde {
+    color: green;
+}
